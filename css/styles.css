@@ -87,7 +87,7 @@
     padding: 10px;
     border: 1px solid #eee;
     width: 100%;
-    color: #aaa;
+    color: rgb(4, 4, 4);
 }
 
 #contact-form label {
@@ -102,7 +102,7 @@
 
 #contact-form input::placeholder,
 #contact-form textarea::placeholder {
-    color: #ccc;
+    color: rgb(97, 97, 97);
 }
 
 #contact-form input[type=submit] {
@@ -113,7 +113,16 @@
     cursor: pointer;
     width: 300px;
     margin: 30px auto;
+    border: 2px solid transparent;
+    transition: .5;
 }
+
+#contact-form input[type=submit]:hover {
+    background-color: #fff;
+    border-color: #00ad5e;
+    color: #00ad5e;
+}
+
 
 
 
